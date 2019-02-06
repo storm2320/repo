@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.tksvideoaddonsample"
+       name="[COLOR red][B]TK's Applications for Kodi:[/B][/COLOR] [COLOR snow][B]Video Addon Template[/B][/COLOR]"
+       version="3.0.0"
+       provider-name="TK's">
+  <requires>
+  <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" 
+             library="default.py">
+             <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  <summary lang="en">TK's Applications for Kodi: Sample Video Addon</summary>
+  <description lang="en">Sample Video Addon with Folders, Created for the TK's Applications for Kodi Community</description>
+  <platform>all</platform>
+  <language>eng</language>
+  <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
