@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.stormwizard" name="[B][COLOR blue]Storm[/B][/COLOR] [COLOR white]Wizard[/COLOR]" version="1.7" provider-name="Storm">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Storm  </summary>
+    <description lang="en">[COLOR blue]Wizard, Addons/Repos, Tools...[/COLOR]
+[CR]Einfach fertig vorkonfigurierte Builds installieren, Apk´s/Addons/Repos installieren, Advanced Settings erstellen, Backup erstellen etc.
+[CR][COLORlime]Inhalte:[/COLOR] [I]KINO,SERIEN,LIVE TV, BKS Sender[/I]</description>
+    <platform>all</platform>
+	<assets>		
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+    		<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    		<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    		<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+    		<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>			
+	</assets>
+  </extension>
+</addon>
