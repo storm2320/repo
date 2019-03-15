@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.stormupdate" name="[COLOR lime]stormupdate[/COLOR]" version="1.0.1" provider-name="[COLOR lime]stormupdate[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK-DE DE REPOSITORY">
+		<info compressed="false">https://github.com/storm2320/storm/raw/master/addons.xml</info>
+		<checksum>https://github.com/storm2320/storm/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/storm2320/storm/raw/master/zip/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR lime]stormupdate[/COLOR]</summary>
+        <description>stormupdate
+stormupdate</description>
+        <platform>all</platform>
+    </extension>
+</addon>
